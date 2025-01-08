@@ -35,7 +35,7 @@ const Footer = () => {
             Todos os direitos reservados® 
           </p>
           <p>
-            Desenvolvido por <a href="https://www.linkedin.com/in/gabriel-belchior-campanile/" target="_blank" className="font-bold hover:underline"> Gabriel Belchior</a>
+            Desenvolvido por <a href="https://www.linkedin.com/in/gabriel-belchior-campanile/" target="_blank" className="font-bold underline hover:text-gray-400"> Gabriel Belchior</a>
           </p>
         </div>
       </div>
