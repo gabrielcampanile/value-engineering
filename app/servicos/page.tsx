@@ -29,7 +29,7 @@ export default function Servicos() {
       <h1 className="text-4xl font-bold mb-8">Nossos Serviços</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {services.map((service, index) => (
-          <div key={index} className="bg-white shadow rounded-lg overflow-hidden">
+          <div key={index} className="bg-white shadow rounded-lg overflow-hidden transition duration-300 ease-in-out hover:shadow-lg hover:scale-102">
             <Image
               src={service.image}
               alt={service.title}

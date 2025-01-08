@@ -14,9 +14,9 @@ export default function Home() {
 
       <section className="mb-12">
         <h2 className="text-3xl font-semibold mb-4">Nossos Serviços</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
           {['Value Engineering', 'Avaliações', 'Perícias', 'Engenharia'].map((service) => (
-            <div key={service} className="bg-white shadow rounded p-6">
+            <div key={service} className="bg-white shadow rounded p-6 transition duration-300 ease-in-out hover:shadow-lg hover:scale-102">
               <h3 className="text-xl font-semibold mb-2">{service}</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
@@ -45,7 +45,7 @@ export default function Home() {
         <h2 className="text-3xl font-semibold mb-4">Projetos Recentes</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[1, 2, 3].map((i) => (
-            <div key={i} className="bg-white shadow rounded overflow-hidden">
+            <div key={i} className="bg-white shadow rounded overflow-hidden transition duration-300 ease-in-out hover:shadow-lg hover:scale-102">
               <Image
                 src={`/placeholder.svg?height=200&width=300&text=Projeto ${i}`}
                 alt={`Projeto ${i}`}
