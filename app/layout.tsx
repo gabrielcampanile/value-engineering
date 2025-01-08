@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Value Engineering',
-  description: 'Empresa especializada em value engineering, avaliações, perícias e engenharia',
+  description: 'Empresa especializada em avaliações, perícias e engenharia',
 }
 
 export default function RootLayout({
