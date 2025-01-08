@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 const Gallery = () => {
   const images = [
-    { src: 'https://via.placeholder.com/400x300?text=Projeto+1', alt: 'Projeto 1' },
-    { src: 'https://via.placeholder.com/400x300?text=Projeto+2', alt: 'Projeto 2' },
-    { src: 'https://via.placeholder.com/400x300?text=Projeto+3', alt: 'Projeto 3' },
-    { src: 'https://via.placeholder.com/400x300?text=Projeto+4', alt: 'Projeto 4' },
-    { src: 'https://via.placeholder.com/400x300?text=Projeto+5', alt: 'Projeto 5' },
-    { src: 'https://via.placeholder.com/400x300?text=Projeto+6', alt: 'Projeto 6' },
+    { src: '/placeholder.svg?height=300&width=400&text=Projeto 1', alt: 'Projeto 1' },
+    { src: '/placeholder.svg?height=300&width=400&text=Projeto 2', alt: 'Projeto 2' },
+    { src: '/placeholder.svg?height=300&width=400&text=Projeto 3', alt: 'Projeto 3' },
+    { src: '/placeholder.svg?height=300&width=400&text=Projeto 4', alt: 'Projeto 4' },
+    { src: '/placeholder.svg?height=300&width=400&text=Projeto 5', alt: 'Projeto 5' },
+    { src: '/placeholder.svg?height=300&width=400&text=Projeto 6', alt: 'Projeto 6' },
   ]
 
   return (
@@ -31,3 +31,4 @@ const Gallery = () => {
 }
 
 export default Gallery
+

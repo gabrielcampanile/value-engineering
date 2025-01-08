@@ -4,22 +4,22 @@ const services = [
   {
     title: 'Value Engineering',
     description: 'Otimizamos projetos para maximizar o valor e minimizar custos sem comprometer a qualidade.',
-    image: '/placeholder.svg?height=200&width=300&text=Value Engineering'
+    image: '/image.jpg'
   },
   {
     title: 'Avaliações',
     description: 'Realizamos avaliações precisas de propriedades e ativos para diversos fins.',
-    image: '/placeholder.svg?height=200&width=300&text=Avaliações'
+    image: '/image.jpg'
   },
   {
     title: 'Perícias',
     description: 'Oferecemos serviços de perícia técnica para resolver disputas e esclarecer questões complexas.',
-    image: '/placeholder.svg?height=200&width=300&text=Perícias'
+    image: '/image.jpg'
   },
   {
     title: 'Engenharia',
     description: 'Fornecemos soluções de engenharia inovadoras para uma variedade de projetos e desafios.',
-    image: '/placeholder.svg?height=200&width=300&text=Engenharia'
+    image: '/image.jpg'
   }
 ]
 

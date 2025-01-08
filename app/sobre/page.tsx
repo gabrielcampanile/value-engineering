@@ -19,7 +19,7 @@ export default function Sobre() {
         </div>
         <div>
           <Image
-            src="/placeholder.svg?height=400&width=600&text=Equipe Value Engineering"
+            src="/image.jpg"
             alt="Equipe Value Engineering"
             width={600}
             height={400}
@@ -33,7 +33,7 @@ export default function Sobre() {
         {['João Silva', 'Maria Oliveira', 'Carlos Santos'].map((name, index) => (
           <div key={index} className="bg-white shadow rounded-lg p-6 text-center">
             <Image
-              src={`/placeholder.svg?height=150&width=150&text=${name}`}
+              src={`/team-member.jpg`}
               alt={name}
               width={150}
               height={150}

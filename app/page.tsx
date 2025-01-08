@@ -44,10 +44,10 @@ export default function Home() {
       <section>
         <h2 className="text-3xl font-semibold mb-4">Projetos Recentes</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[1, 2, 3].map((i) => (
+          {[1, 2, 3, 4, 5, 6].map((i) => (
             <div key={i} className="bg-white shadow rounded overflow-hidden transition duration-300 ease-in-out hover:shadow-lg hover:scale-102">
               <Image
-                src={`/placeholder.svg?height=200&width=300&text=Projeto ${i}`}
+                src={`/image.jpg`}
                 alt={`Projeto ${i}`}
                 width={300}
                 height={200}
